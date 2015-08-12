@@ -9,4 +9,4 @@ app.use(cors());
 
 app.get("/search", search.lookup);
 
-app.listen(3000);
+app.listen(process.env.PORT);
